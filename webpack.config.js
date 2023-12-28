@@ -24,7 +24,6 @@ const jsloaders = () => {
   if (isDev) {
     loaders.push('eslint-loader');
   }
-
   return loaders;
 };
 // console.log('IS PROD', isProd);

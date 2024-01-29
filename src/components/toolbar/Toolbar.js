@@ -6,7 +6,8 @@ static ClassName = 'excel__toolbar';
 constructor($root, options) {
   super($root, {
     name: 'Toolbar',
-    listeners: ['click'],
+    listeners: [],
+    ...options,
   });
 }
 
@@ -48,9 +49,5 @@ toHTML() {
 		</i>
 </div>
 `;
-}
-
-onClick(event) {
-  console.log(event.target);
 }
 }

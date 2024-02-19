@@ -10,6 +10,7 @@
 			"linebreak-style": "off",
 			"no-tabs": "off",
 			"no-unused-vars": "off",
+			"no-invalid-this": "off"
     },
     "extends": ["eslint:recommended", "google"]
 }
